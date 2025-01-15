@@ -2,10 +2,121 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto HTML</title>
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
 </head>
 <body>
-    <h1>Bem-vindo ao meu projeto HTML!</h1>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+
+
+    <hr />
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#histotia">História dos computadores</a></li>
+        <li><a href="#Clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#Servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura-básica">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas-ordenadas-e-não-ordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referências">Links de referências</a></li>
+    </ul>
+
+    <h2 id="histotia">História dos computadores</h2>
+    <a href="#inicio">(voltar)</a></small>
+    <p> A história dos computadores começou com ferramentas simples como o ábaco e evoluiu para máquinas mecânicas. No século XX, surgiram os computadores eletrônicos, são dividadas em 5 geração são elas :
+        <UL>
+            <LI> <STrong><U>1ª Geração </U></STrong> Usavam válvulas eletrônicas e ocupavam grandes espaços.
+            <LI> <STrong><U>2ª Geração </U></STrong> Com transistores, ficaram menores e mais rápidos.
+            <LI> <STrong><U>3ª Geração </U></STrong> Circuitos integrados trouxeram mais eficiência.
+            <LI> <STrong><U>4ª Geração </U></STrong> Microprocessadores permitiram o surgimento de computadores pessoais.
+            <LI> <STrong><U>5ª Geração </U></STrong> Foco em inteligência artificial, dispositivos móveis e computação em rede.
+
+        </UL>
+    
+        
+    </p>
+
+    <h2 id="Clients">O que são <i>Clients</i>?</h2>
+    <a href="#inicio">(voltar)</a></small>
+    <p>é um cliente que solicita páginas de um servidor web. exemplo Um navegador da web (como o Google Chrome).
+        <p>
+            <h4><strong><u>Características:</u></strong></h4>
+                <ol>
+                    <li>Solicita informações ou serviços.</li>
+                    <li>Depende de um servidor para processar e retornar dados.</li>
+                    <li>Exemplos de clientes: aplicativos web, clientes de e-mail, jogos online.
+                    </li>
+                </ol>
+
+
+        </p>
+   
+
+    <h2 id="Servers">O que são <i>Servers</i>?</h2> 
+    <a href="#inicio">(voltar)</a></small>
+    <p>Servers (servidores) são dispositivos ou softwares que fornecem serviços, dados ou recursos a outros dispositivos ou softwares chamados clients (clientes), em uma arquitetura cliente-servidor.
+    <h4>Resumo de Funções:</h4>
+    <ul>
+        <li>Armazenar e processar dados: Servem informações solicitadas pelos clientes.</li>
+        <li>Gerenciar recursos: Como arquivos, bancos de dados, ou serviços (exemplo: e-mail, hospedagem de sites).</li>
+        <li>Responder requisições: Processam pedidos e enviam respostas aos clientes conectados</li>
+    </ul>
+
+    <h4>Exemplos:</h4>
+
+    <ol>
+        <li>Servidor Web: Hospeda sites e envia páginas ao navegador.</li>
+        <li>Servidor de Arquivos: Armazena e compartilha documentos em uma rede.</li>
+        <li>Servidor de Banco de Dados: Gerencia o acesso a bancos de dados para aplicativos.</li>
+    </ol>
+
+    <h2 id="estrutura-básica">Como é uma estrutura básica de um HTML?</h2> 
+    <a href="#inicio">(voltar)</a></small>
+    <p>A estrutura básica de um documento HTML segue um formato padrão, que inclui elementos essenciais para criar uma página web.
+        <h4><strong>Explicação dos Elementos:</strong></h4>
+        <ol>
+            <li><mark>&lt;!DOCTYPE html&gt;</mark>: Declaração que informa ao navegador que o documento usa HTML5.</li>
+            <li><mark>&lt;html&gt;</mark>: Elemento raiz que contém todo o conteúdo do documento HTML.</li>
+            <ul>
+                <li><mark>lang="pt-BR"</mark>: Define o idioma da página como português do Brasil.</li>
+            </ul>
+            <li><mark>&lt;head&gt;</mark>: Contém informações meta sobre o documento (não visíveis na página).</li>
+                <ul>
+                    <li><mark>&lt;"meta charset="UTF-8"&lt;</mark> Define a codificação de caracteres para suportar acentos e símbolos.</li>
+                    <li><mark>&lt;"meta name="viewport" content="width=device-width, initial-scale=1.0""&lt;</mark> Ajusta a página para dispositivos móveis.</li>
+                    <li><mark>&lt;"title"</title>"&lt;</mark>  Define o título exibido na aba do navegador.</li>
+                </ul>
+                <li><mark>"body"</mark>: Contém o conteúdo visível da página (como texto, imagens e links).</li>
+        </ol>
+        <p>Essa estrutura é o ponto de partida para qualquer projeto web!</p>
+        
+
+    <h2 id="listas-ordenadas-e-não-ordenadas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2> 
+    <a href="#inicio">(voltar)</a></small>
+    <p>As listas ordenadas e não ordenadas em HTML são usadas para organizar itens de forma diferente, e a principal diferença está no formato de exibição dos itens.
+        <h4>1. Lista Ordenada <mark>&lt;(ol)&lt;</mark> </h4>
+        <ul>
+            <li>Uso: Exibe os itens em uma sequência numerada ou com algum tipo de ordenação.</li>
+            <li>Elementos: A lista ordenada é criada com a tag <mark>&lt;(ol)&lt;</mark>, e cada item da lista é marcado com a tag <mark>&lt;li&lt; </mark>.
+            <li>Aparência: Os itens são numerados automaticamente. Você pode personalizar o estilo da numeração com CSS (por exemplo, números romanos, letras, etc.).</li>    
+        </ul>
+        <h4>1. Lista Não Ordenada <mark>&lt;(ul)&lt;</mark> </h4>
+        <ul>
+            <li>Uso: Exibe os itens sem uma ordem específica, geralmente com marcadores (como círculos ou quadrados). </li>
+            <li>Elementos: A lista ordenada é criada com a tag <mark>&lt;(ul)&lt;</mark>, e cada item da lista é marcado com a tag <mark>&lt;li&lt; </mark>.
+            <li>Aparência: Os itens são exibidos com marcadores (padrão: círculos). Você pode mudar o tipo de marcador com CSS (por exemplo, quadrados, imagens personalizadas).</li>
+        </ul>
+
+
+    <h2 id="referências">Links de referências</h2> <small> 
+        <a href="#inicio">(voltar)</a></small>
+    
+        <ul>
+            <li><a href="http://dio.me">http://dio.me</a></li>
+            <li><a href="https://html.com">https://html.com</a></li>
+            <li><a href="https://developer.mozilla.org">https://developer.mozilla.org</a></li>
+        </ul>
+        
 </body>
 </html>
